@@ -1,0 +1,164 @@
+* {padding: 0; margin: 0; box-sizing: border-box; font-family: 'Work Sans', sans-serif;}
+
+body {
+    background-color: #f4f5fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form {
+    display: flex;
+    background-color: #fff;
+    width: 665px;
+    height: 481px;
+}
+
+.form__logo {
+    position: relative;
+    width: 138px;
+    height: 481px;
+    background-color: #5A61ED;
+}
+
+.form__logo_text {
+    transform: rotate(-90deg);
+    width: 200px;
+    bottom: 80px;
+    left: 5px;
+    position: absolute;
+    font-size: 49px;
+    color: #fff;
+}
+
+.form .container {
+    position: relative;
+    padding: 38px 22px 32px 20px;
+    width: 528px;
+    height: 481px;
+}
+
+.form .form__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form .form__flex_left {
+    z-index: 2;
+    flex: 1;
+}
+.form .form__flex_right {
+    z-index: 2;
+    flex: 1;
+}
+
+.form .form__title {
+    color: #111;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: -0.46px;
+}
+
+.form .form__subtitle {
+    margin-bottom: 20px;
+    color: #111;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.form .form__login {
+    font-size: 13px;
+    font-weight: 300;
+    color: #000;
+}
+
+.form .form__btn {
+    z-index: 2;
+    width: 154px;
+    height: 32px;
+    background-color: #5A61ED;
+    color: #fff;
+    border: 0.5px solid #fff;
+    cursor: pointer;
+}
+
+#form__select {
+    width: 234px;
+    margin: 20px 0 20px 0;
+    border: none;
+    border-bottom: 1px solid #F2F2F2;
+}
+
+.form .form__group {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.form .form__group .form__label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #7C7C7C;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.form .form__group .form__input {
+    width: 234px;
+    margin: 20px 0 20px 0;
+    border: none;
+    border-bottom: 1px solid #F2F2F2;
+    background-color: transparent;
+    outline: none;
+}
+
+.form .form__group .form__input:invalid:focus:not(:placeholder-shown) {
+    color: red;
+    border-color: red;
+}
+
+.form .form__group .form__input:not(:placeholder-shown) {
+    border-color: F2F2F2;
+}
+
+.form .form__group .form__input_radio {
+    margin: 28px 5px 21px 0;
+}
+
+.form .form__group .form__group_input {
+    margin-right: 19px;
+}
+
+.form .form__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.form .form__img {
+    z-index: 1;
+    width: 353px;
+    height: 353px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: url('../img/img.png') center center/cover no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

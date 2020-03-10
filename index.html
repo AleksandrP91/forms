@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <form action="#" class="form">
+                 
+        <div class="form__logo">
+            <div class="form__logo_text">
+                Sign ip
+            </div>
+        </div>
+
+        <div class="container">
+
+        <h1 class="form__title">New user?</h1>
+        <div class="form__subtitle">
+            Use the form below to create your account.
+        </div>
+
+            <div class="form__container">
+
+                <div class="form__flex_left">
+                    <div class="form__group"> 
+                        <input class="form__input" type="text" required="required" placeholder=" " minlength="1" maxlength="30">
+                        <label class="form__label">First Name</label>
+                    </div>
+
+                    <div class="form__group">
+                        <select name="Nationality" id="form__select">
+                            <option value="Russia">Russia</option>
+                            <option value="American">American</option>
+                            <option value="Germany">Germany</option>
+                        </select>
+                        <label class="form__label">Nationality</label>
+                    </div>
+
+                    <div class="form__group">
+                        <input class="form__input" type="date" placeholder=" ">
+                        <label class="form__label">Date of Birth</label>
+                    </div>
+
+                    <div class="form__group">
+                        <input class="form__input" type="password" required="required" placeholder=" " pattern="*%$#">  
+                        <label class="form__label">Password</label> 
+                    </div>
+                </div>
+
+                <div class="form__flex_right">
+
+                    <div class="form__group">
+                        <input class="form__input" type="text" required="required" placeholder=" " minlength="1" maxlength="30">
+                        <label class="form__label">Last Name</label>
+                    </div>
+
+                    <div class="form__group">
+                        <input class="form__input" type="email" required="required" placeholder=" " title="hello">
+                        <label class="form__label">E-mail</label>
+                    </div>
+                    
+                    <div class="form__group">
+                        <label class="form__group_input">
+                            <input class="form__input_radio" type="radio" name="gender" value="Male" checked>Male
+                        </label>
+                        <label class="form__group_input">
+                            <input class="form__input_radio" type="radio" name="gender" value="Female">Female
+                        </label>
+                        <label class="form__label">Gender</label>
+                    </div>
+        
+                    <div class="form__group">
+                        <input class="form__input" type="password" required="required" placeholder=" "> 
+                        <label class="form__label">Confirm Password</label>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="form__img"></div>
+
+            <div class="form__footer">
+                <div class="form__login">
+                    Have an account? <a href="#">Login</a>
+                </div>
+
+                <button class="form__btn" id="btn">Complete Signup</button>
+            </div>
+
+        </div>
+       
+    </form>
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
